@@ -11,6 +11,7 @@ export default {
   },
   margin: 15,
   typography: {
+    useNextVariants: true,
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     fontSize: 14,
     fontWeightLight: 300,

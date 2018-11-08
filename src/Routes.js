@@ -8,8 +8,8 @@ const Routes = () => {
   return (
     <Suspense fallback={<p>Loading</p>}>
       <Switch>
-        <Route path="/" component={QuizPage} />
-        <Route exact path="/quiz" component={QuizPage} />
+        <Route path="/" render={props => <QuizPage {...props} />} />
+        <Route exact path="/quiz" render={props => <QuizPage {...props} />} />
       </Switch>
     </Suspense>
   );
