@@ -1,3 +1,28 @@
+### Running The Application
+
+I am using `yarn` for this, but you can use `npm` if you want.
+
+```
+ yarn
+ yarn build
+```
+
+This command will run a production build make all the optimization and minification it needs. And
+open up the portal on `http://localhost:3000/`
+
+If you want to edit this application on the go, using hot module replacment, run the following
+command
+
+```
+yarn start
+```
+
+Cool things you will hopefully like;
+* Using Airbnb Javascript style guide
+* You can not make a commit unless your code is properly linted, thanks to a tool called Husky ;)
+* Using Material UI (I love material-ui, I also a contributor to react material ui)
+
+
 # Documentation
 
 Webapp Was Built In:
