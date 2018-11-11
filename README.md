@@ -22,6 +22,12 @@ Cool things you will hopefully like;
 * You can not make a commit unless your code is properly linted, thanks to a tool called Husky ;)
 * Using Material UI (I love material-ui, I also a contributor to react material ui)
 
+### Time it took to build
+
+It took me <b>4 hours</b> to build this application.
+
+<hr />
+<br /><br /><br />
 
 # Documentation
 
